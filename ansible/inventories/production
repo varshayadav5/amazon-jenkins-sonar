@@ -1,0 +1,2 @@
+[tomcat]
+192.168.179.128 ansible_user=varsha ansible_ssh_private_key_file=/home/varsha/.ssh/id_rsa

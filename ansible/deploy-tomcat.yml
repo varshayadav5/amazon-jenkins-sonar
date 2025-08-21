@@ -1,0 +1,7 @@
+- hosts: tomcat
+  become: yes
+  tasks:
+    - name: Copy WAR file to Tomcat
+      copy:
+        src: target/sampleapp.war
+        dest: /opt/tomcat/webapps/sampleapp.war
